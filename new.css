@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Gochi+Hand&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gochi Hand', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Acme', sans-serif;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1568px;
+  }
+}
+
+.icon-style {
+  background: #12c983;
+  padding: 15px;
+  margin: 5px 0;
+  color: white;
+}
+
+header {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(Equity-in-the-Classroom-HERO_2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .banner-container {
+  height: 60vh;
+}
+
+header .navbar {
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+header .navbar .navbar-nav li:hover {
+  background-color: rgba(76, 197, 238, 0.6);
+  border-radius: 3px;
+}
+
+header .navbar .navbar-nav li:hover a {
+  color: black;
+}
+
+header .navbar .navbar-nav li a {
+  color: #fffffe;
+}
+
+header .navbar .nav {
+  color: white;
+}
+
+header .dropdown .dropdown-menu li a {
+  color: black;
+}
+
+header .dropdown .dropdown-menu li a:hover {
+  background-color: papayawhip;
+}
+
+#features {
+  padding: 5% 10%;
+  background-color: #c4e5f8;
+}
+
+#features .features-col {
+  border: 1px solid #db5aec;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#features .features-col:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 3px 4px 5px black;
+          box-shadow: 3px 4px 5px black;
+}
+
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 100px;
+}
+
+.section-title h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#about-me {
+  padding: 4% 10%;
+}
+
+#about-me .basic-desc p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: light;
+}
+
+#about-me .basic-desc a {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #ff0000;
+  padding-bottom: 18px;
+  text-decoration: underline;
+}
+
+#about-me .achieve-desc p span {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#about-me td {
+  color: #4c00ff;
+}
+
+#about-me .star {
+  color: orangered;
+}
+
+.card {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#feedback {
+  padding: 5% 10%;
+}
+
+#contact {
+  padding: 2% 10%;
+  background-color: antiquewhite;
+}
+
+footer {
+  padding: 1% 10%;
+  background: #5c1b99;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer a i:hover {
+  color: #8aacec;
+}
+
+.banner .banner-container .banner-content h1 {
+  font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .banner .banner-container .banner-content h1 {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=new.css.map */

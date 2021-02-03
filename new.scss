@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Gochi+Hand&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+font-family: 'Gochi Hand', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Acme', sans-serif;
+}
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (min-width: 1200px){
+
+
+.container {
+    max-width: 1568px;
+}
+}
+ .icon-style{
+      background: rgb(18, 201, 131);
+      padding: 15px;
+      margin: 5px 0;
+      color: rgb(255, 255, 255);
+    }
+
+
+
+                     // header
+
+header{
+      background-image: radial-gradient(rgba(#000000,.4),rgba(#000000,.3)),url(Equity-in-the-Classroom-HERO_2.jpeg); 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+      .banner-container{
+        height: 60vh;
+      }         
+      .navbar{
+        padding: 1% 10%;
+        background-color: rgba($color: #000000, $alpha: .35);
+       .navbar-nav {
+          li{
+            &:hover{
+              background-color: rgba(76, 197, 238,.6);
+              border-radius: 3px;
+              a{
+                color: black;
+              }
+            }
+            a{
+              color: rgb(255, 255, 254);
+            }
+          }
+        }
+
+        .nav{
+          color: white;
+        }
+      }
+      .dropdown .dropdown-menu li a{
+         &:hover{
+        background-color:papayawhip ;}
+        color: black;
+      }
+}                   
+                
+                     // features start
+
+#features{
+  padding: 5% 10%;
+  background-color: rgb(196, 229, 248);
+  .features-col{
+    border: 1px solid rgb(219, 90, 236);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .3s ease-in-out;
+    &:hover{
+      transform: scale(1.1);
+      box-shadow: 3px 4px 5px black;
+    }
+   
+  }
+}
+
+
+          // features end
+
+
+          // abour me starrty
+.hr-style{
+border: 5px dotted white;
+border-bottom: none;
+width: 100px;
+
+}
+.section-title h3{
+font-weight: bolder;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+
+
+#about-me{
+  padding: 4% 10%;
+  .basic-desc{
+   
+  p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: light;
+  }
+  a{
+      font-size: 1rem;
+    margin-bottom: 0;
+  color: #ff0000;
+  padding-bottom: 18px;
+  text-decoration: underline;
+  }
+  }
+  .achieve-desc{
+    p{
+      span{
+        font-weight: bolder;
+        text-decoration: underline;
+      }
+    }
+  }
+  td{
+    color: rgb(76, 0, 255);
+  }
+  .star{
+    color: orangered;
+  }
+}
+          // abour me end
+
+
+
+
+
+
+
+
+
+
+
+
+    // <!-- card starert -->
+
+.card{
+transition: .3s;
+&:hover{
+  transform: scale(1.1);
+}
+}
+
+
+
+    // <!-- card ends -->
+
+
+// <!-- feedback  -->
+
+
+#feedback{
+  padding:5% 10%;
+ 
+}
+
+// <!-- feedback ends -->
+
+
+
+
+
+
+// <!--contact start -->
+
+#contact{
+  padding: 2% 10%;
+  background-color: antiquewhite;
+}
+
+
+
+// <!--contact end -->
+
+
+
+
+    // <!-- footer start -->
+
+footer{
+  padding: 1% 10%;
+  background: rgb(92, 27, 153);
+  a{margin: 0 10px;
+       i{
+
+   
+    &:hover{
+      color: rgb(138, 172, 236);
+    }
+  }
+}
+ }
+  .banner .banner-container .banner-content h1{
+    font-size: 3.5rem;
+  }
+    //<!-- footer end -->
+@media(max-width:768px){
+  .banner .banner-container .banner-content h1{
+    font-size: 2.5rem;
+  }
+}
